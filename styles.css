@@ -1,0 +1,120 @@
+.box {
+  background: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
+  border-radius: 4px;
+  margin-left: 150px;
+  margin-right: 150px;
+  max-height: 650px;
+  max-width: 700px;
+  box-shadow: 5px 5px 10px rgb(63 62 62);
+  display: block;
+  margin: 0 auto;
+}
+img {
+  position: relative;
+  left: -150px;
+  top: 60px;
+}
+h1 {
+  position: relative;
+  top: -100px;
+  left: 50px;
+  font-size: 30px;
+  font-family: popins;
+  color: #016ec5;
+}
+h2 {
+  position: relative;
+  font-family: popins;
+  font-size: 20px;
+  color: #016ec5;
+  top: -100px;
+  left: 50px;
+}
+h3 {
+  position: relative;
+  font-family: popins;
+  font-size: 20px;
+  color: #016ec5;
+  top: -100px;
+  left: 50px;
+}
+h4 {
+  position: relative;
+  font-family: popins;
+  font-size: 20px;
+  color: #016ec5;
+  top: -100px;
+  left: 50px;
+}
+.card-body-mon {
+  position: relative;
+  top: 27px;
+  color: #016ec5;
+  left: 50px;
+  font-size: 25px;
+  border-color: #016ec5;
+}
+.card-body-tue {
+  position: relative;
+  top: -82px;
+  color: #016ec5;
+  left: 140px;
+  font-size: 25px;
+}
+.card-body-wed {
+  position: relative;
+  top: -191px;
+  color: #016ec5;
+  left: 230px;
+  font-size: 25px;
+}
+.card-body-thu {
+  position: relative;
+  top: -299px;
+  color: #016ec5;
+  left: 320px;
+  font-size: 25px;
+}
+.card-body-fri {
+  position: relative;
+  top: -408px;
+  color: #016ec5;
+  left: 410px;
+  font-size: 25px;
+}
+.cities {
+  text-align: center;
+  padding: 40px;
+}
+.first {
+  right: 140px;
+  position: relative;
+  font-family: popins;
+  font-size: 20px;
+}
+.second {
+  right: 90px;
+  position: relative;
+  font-family: popins;
+  font-size: 20px;
+}
+.third {
+  right: 40px;
+  position: relative;
+  font-family: popins;
+  font-size: 20px;
+}
+.enter-city {
+  font-size: 22px;
+  border-radius: 15px 15px;
+  position: relative;
+  top: 8px;
+  border-color: 3px 3px 3px rgb(47, 121, 218);
+}
+hr {
+  color: #016ec5;
+}
