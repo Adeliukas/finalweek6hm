@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather app</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="cities">
+          <span class="first"> Palanga </span>
+          <span class="second"> Paris </span>
+          <span class="third"> London </span>
+          <p></p>
+          <form id="change-city">
+            <input  class="enter-city" type="text" placeholder="Enter a City" />
+            <button   id="enter-city" type="submit" class="btn btn-primary">Search</button>
+            <button id="current-loc" type="button" class="btn btn-success">Current location temperature</button>
+          </form>
+          <img src="src/sun.png" alt="sun" width="180px" />
+
+          <h1>London</h1>
+          <h2 id= "current-temp" > Currently 20°C</h2>
+          <h3>Sunday 14:00</h3>
+          <h4>Sunny</h4>
+      <hr/>
+          <div class="row align-items-start-5" >
+              <div class="col-1">
+                  <div class="card-body-mon">
+                  <div class="card" style="width: 80px">
+            <h5>Mon</h5>
+            ⛅ 
+            20°C  
+       </div>
+          </div>
+          <div class="col-1">
+              <div class="card-body-tue">
+              <div class="card" style="width: 80px">
+                <h5> Tue </h5>
+                ⛅
+                19°C
+                    </div>
+                    </div>
+          <div class="col-1">
+              <div class="card-body-wed">
+              <div class="card" style="width: 80px">
+                <h5> Wed </h5>
+                ☔
+                17°C
+              </div>
+                    </div>
+                    </div>
+                    <div class="col-1">
+                        <div class="card-body-thu">
+                        <div class="card" style="width: 80px">
+                          <h5> Thu </h5>
+                          ☔
+                          17°C
+                              </div>
+                              </div>
+                              <div class="col-1">
+                                  <div class="card-body-fri">
+                                  <div class="card" style="width: 80px">
+                                    <h5> Fri </h5>
+                                    ☔
+                                    16°C
+                                        </div>
+                                        </div>
+
+        </div>
+      </div>
+    </div>
+     <script src="index.js"></script>
+  </body>
+</html>
